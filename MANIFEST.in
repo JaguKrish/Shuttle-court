@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include shuttle_court *.css
+recursive-include shuttle_court *.csv
+recursive-include shuttle_court *.html
+recursive-include shuttle_court *.ico
+recursive-include shuttle_court *.js
+recursive-include shuttle_court *.json
+recursive-include shuttle_court *.md
+recursive-include shuttle_court *.png
+recursive-include shuttle_court *.py
+recursive-include shuttle_court *.svg
+recursive-include shuttle_court *.txt
+recursive-exclude shuttle_court *.pyc
